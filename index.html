@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bookmark Website | Save the Pages</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+	</head>
+	<body onload = "fetchBookmarks()">
+		<div class = "jumbotron">
+			<h2>Bookmarker</h2>
+		</div>
+		<div class="panel panel-primary">
+		  <div class="panel-heading">Bookmark your favorite sites</div>
+		  <div class="panel-body">
+		  <form id = "myForm">
+			<h6>Site Name</h6>
+			<input type = "text" class = "form-control" id = "siteName" placeholder = "Website Name">
+			<h6>Site Url</h6>
+			<input type = "text" class = "form-control" id = "siteUrl" placeholder = "Website Url">
+			<br>
+			<button type = "submit" class = "btn btn-primary">Submit</button>
+		  </div>
+		  </form>
+		</div>
+		
+		<div class="panel panel-warning">
+			<div class = "panel-heading">
+				 <div id = "bookmarksResults"></div>
+			</div>
+		</div>
+
+		
+		<p>2019 All Rights Reserved.</p>
+	<script src = "script.js"></script>
+	</body>
+</html>
